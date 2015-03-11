@@ -1,0 +1,9 @@
+class MSProj_OrangeBall_Slow extends MSProj_GreenBallLarge_Slow;
+
+DefaultProperties
+{
+	ProjFlightTemplate=ParticleSystem'Bounty.Particles.MSProj_OrangeBallMiddle'
+	ProjExplosionTemplate=ParticleSystem'Bounty.Particles.MSProj_OrangeBallLarge_Slow_Impact'
+
+	SplitChildrenClass=class'MSProj_OrangeBarrageSmall_Slow'
+}

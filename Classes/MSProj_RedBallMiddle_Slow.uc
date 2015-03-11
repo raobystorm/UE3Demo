@@ -1,0 +1,7 @@
+class MSProj_RedBallMiddle_Slow extends MSProj_BlueBallMiddle_Slow;
+
+DefaultProperties
+{
+	ProjFlightTemplate=ParticleSystem'Bounty.Particles.MSProj_RedBallMiddle'
+	ProjExplosionTemplate=ParticleSystem'Bounty.Particles.MSProj_RedBallMiddle_Impact'
+}
